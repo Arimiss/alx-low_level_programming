@@ -1,18 +1,21 @@
 #include <stdio.h>
 
-
 /**
- * main - prints the alphabets in lowercase
+ * main - Prints all single digits in base 10
  *
  * Return: Always (Success)
  */
+i
 int main(void)
 {
-	char d;
+	char n;
 
-	for (d = 'a'; d <= 'z'; d++)
-		putchar(d);
+	for (n = '0'; n <= '9'; n++)
+	{
+		putchar(n);
+	}
 
 	putchar('\n');
+
 	return (0);
 }
